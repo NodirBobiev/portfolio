@@ -1,0 +1,73 @@
+body {
+    padding: 0 200px;
+    background-color: rgb(228, 253, 255);
+}
+
+
+.section{
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+}
+
+.icon-contact{
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    margin: auto 0.5rem;
+}
+
+.telegram{
+    background-image: url(./assets/telegram.png);
+}
+
+.email{
+    background-image: url(./assets/email.png);
+}
+
+
+.github{
+    background-image: url(./assets/github.png);
+}
+
+        
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: auto 0.5rem;
+    text-decoration: none;
+    color: rgb(25, 76, 169);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(255, 255, 255); */
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.badge{
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 223, 213);
+}
+/* .nav-item{
+
+} */

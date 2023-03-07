@@ -47,14 +47,14 @@ function displayXKCD(data: Joke){
     const trash = document.getElementById("trash") as HTMLDivElement;
     
     const title = document.createElement("h2") as HTMLHeadElement;
-    title.textContent = data["title"];
+    title.textContent = data.title;
     
     const dateSpan = document.createElement("p") as HTMLParagraphElement;
     dateSpan.textContent = data.date.toLocaleDateString("en-RU");
 
     const img = document.createElement("img") as HTMLImageElement;
-    img.setAttribute("src", data["img"]);
-    img.setAttribute("alt", data["alt"]);
+    img.setAttribute("src", data.img);
+    img.setAttribute("alt", data.alt);
 
 
     trash.appendChild(title);
